@@ -1,0 +1,10 @@
+package com.designpattern.factory.main;
+
+public class Cat implements Animal {
+
+	@Override
+	public void eat() {
+		System.out.println("Cat is eating ...");
+	}
+
+}
